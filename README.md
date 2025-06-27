@@ -9,6 +9,9 @@ I'm a Python developer specializing in business process automation. Currently le
 ### [Bookings App](https://github.com/patosorio/bookings-app)
 
 Full-stack project to manage bookings for an artist agency.  
+
+This app includes multi-tenancy support, allowing different agencies to manage their own data in isolation. The challenge was designing a scalable backend that keeps each tenant’s users, bookings, and artist data separate while using shared infrastructure. I implemented this with a clean Django architecture that organizes models and routes per tenant context.
+
 - **Frontend**: Built with Next.js using Vercel’s `v0` AI-powered generator.  
 - **Backend**: Django REST Framework.  
 - **Hosting**: Frontend on Vercel, Backend on Google Cloud Run.  
