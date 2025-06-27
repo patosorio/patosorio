@@ -1,16 +1,33 @@
-## Hi there 👋
+# Hi, I'm Patricia 👋
 
-<!--
-**patosorio/patosorio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Python developer specializing in business process automation. Currently learning cybersecurity, while I'm not a professional in the field yet, I'm actively building my skills.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚧 Featured Projects
+
+### [Bookings App](https://github.com/patosorio/bookings-app)
+
+Full-stack project to manage bookings for an artist agency.  
+- **Frontend**: Built with Next.js using Vercel’s `v0` AI-powered generator.  
+- **Backend**: Django REST Framework.  
+- **Hosting**: Frontend on Vercel, Backend on Google Cloud Run.  
+- **Authentication**: Firebase Authentication.
+
+---
+
+
+## 🧠 Business Automations
+
+I build Python-based automations focused on real-world business tasks.  
+Check one of my automation projects here:  
+**[Airtable](https://github.com/patosorio/airtable-drive-sync)**  
+Other automation:  
+**[Google Drive API Automation & Sheets Sync](https://github.com/patosorio/drive-api-automation)**
+
+---
+
+## 📫 Contact
+
+- [LinkedIn](https://www.linkedin.com/in/patriciaosorio130194/)
+- Email: patosorio.88@gmail.com
