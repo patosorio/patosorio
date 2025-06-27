@@ -1,10 +1,10 @@
-# Hi, I'm Patricia 👋
+# Hi, I'm Patricia 
 
 I'm a Python developer specializing in business process automation. Currently learning cybersecurity, while I'm not a professional in the field yet, I'm actively building my skills.
 
 ---
 
-## 🚧 Featured Projects
+## Featured Projects
 
 ### [Bookings App](https://github.com/patosorio/bookings-app)
 
@@ -17,7 +17,7 @@ Full-stack project to manage bookings for an artist agency.
 ---
 
 
-## 🧠 Business Automations
+## Business Automations
 
 I build Python-based automations focused on real-world business tasks.  
 Check one of my automation projects here:  
@@ -27,7 +27,7 @@ Other automation:
 
 ---
 
-## 📫 Contact
+## Contact
 
 - [LinkedIn](https://www.linkedin.com/in/patriciaosorio130194/)
 - Email: patosorio.88@gmail.com
