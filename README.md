@@ -6,7 +6,7 @@ I'm a Python developer specializing in business process automation. Currently le
 
 ## Featured Projects
 
-### [Bookings App](https://github.com/patosorio/bookings-app)
+### [Bookings App (Next.js + Django)](https://github.com/patosorio/bookings-app)
 
 Full-stack project to manage bookings for an artist agency.  
 
