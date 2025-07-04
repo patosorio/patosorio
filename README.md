@@ -23,7 +23,7 @@ This app includes multi-tenancy support, allowing different agencies to manage t
 
 ### [Home Expenses App (Next.js)](https://github.com/patosorio/home-expenses-nextjs)
 
-**Repository:** [Home Expenses App (Next.js)](https://github.com/patosorio/home-expenses-nextjs)
+**[Repository](https://github.com/patosorio/home-expenses-nextjs)**
 
 Experimental app to track household expenses using only frontend tools and Firebase services.
 
