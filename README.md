@@ -23,6 +23,8 @@ This app includes multi-tenancy support, allowing different agencies to manage t
 
 ### [Home Expenses App (Next.js)](https://github.com/patosorio/home-expenses-nextjs)
 
+**Repository:** [Home Expenses App (Next.js)](https://github.com/patosorio/home-expenses-nextjs)
+
 Experimental app to track household expenses using only frontend tools and Firebase services.
 
 This project explores how far you can go with a frontend-only stack by relying on Vercel’s `v0` AI-generated Next.js code. No custom backend is used — all data handling and authentication are managed through Firebase, making it fast to build and easy to deploy.
