@@ -21,19 +21,17 @@ This app includes multi-tenancy support, allowing different agencies to manage t
 
 ---
 
-### [Home Expenses App (Next.js)](https://github.com/patosorio/home-expenses-nextjs)
+### [Home Expenses App (Next.js)](https://github.com/patosorio/expenses-tracker)
 
-**[Repository](https://github.com/patosorio/home-expenses-nextjs)**
+**[Repository](https://github.com/patosorio/expenses-tracker)**
 
-Experimental app to track household expenses using only frontend tools and Firebase services.
+This project combines Next.js frontend with a FastAPI backend, offering a secure and scalable solution for managing expenses, budget forecast with ai assistant integrated. While leveraging Firebase for authentication, the application uses a custom backend with SQL database for data persistence and business logic.
 
-This project explores how far you can go with a frontend-only stack by relying on Vercel’s `v0` AI-generated Next.js code. No custom backend is used — all data handling and authentication are managed through Firebase, making it fast to build and easy to deploy.
-
-- **Frontend**: Built with Next.js using Vercel’s `v0` AI-powered generator  
-- **Hosting**: Vercel  
+- **Frontend**: Built with Next.js using Vercel’s `v0` AI-powered generator
+- **Backend:**: FastAPI with SQLAlchemy
+- **Hosting**: Vercel (Frontend) / Custom hosting (GCP)  
 - **Authentication**: Firebase Authentication  
-- **Database**: Firebase Realtime Database / Firestore  
-
+- **Database**: SQL database with Alembic migrations
 ---
 
 ## Business Automations
