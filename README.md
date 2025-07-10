@@ -21,7 +21,7 @@ This app includes multi-tenancy support, allowing different agencies to manage t
 
 ---
 
-### [Home Expenses App (Next.js)](https://github.com/patosorio/expenses-tracker)
+### [Home Expenses App (Next.js + FastAPI)](https://github.com/patosorio/expenses-tracker)
 
 **[Repository](https://github.com/patosorio/expenses-tracker)**
 
