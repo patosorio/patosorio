@@ -6,7 +6,7 @@ I'm a Python developer specializing in business process automation. Currently le
 
 ## Featured Projects
 
-### [Bookings App (Next.js + Django)](https://github.com/patosorio/Artist-bookings)
+### [Artists Bookings (Next.js + Django)](https://github.com/patosorio/Artist-bookings)
 
 Full-stack project to manage bookings for an artist agency.  
 
@@ -21,7 +21,7 @@ This app includes multi-tenancy support, allowing different agencies to manage t
 
 ---
 
-### [Home Expenses App (Next.js + FastAPI)](https://github.com/patosorio/expenses-tracker)
+### [Smart Budget (Next.js + FastAPI)](https://github.com/patosorio/expenses-tracker)
 
 **[Repository](https://github.com/patosorio/expenses-tracker)**
 
