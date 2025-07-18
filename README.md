@@ -8,6 +8,8 @@ I'm a Python developer specializing in business process automation. Currently le
 
 ### [Artists Bookings (Next.js + Django)](https://github.com/patosorio/Artist-bookings)
 
+#### Currently working on
+
 Full-stack project to manage bookings for an artist agency.  
 
 This app includes multi-tenancy support, allowing different agencies to manage their own data in isolation. The challenge was designing a scalable backend that keeps each tenant’s users, bookings, and artist data separate while using shared infrastructure. I implemented this with a clean Django architecture that organizes models and routes per tenant context.
@@ -24,6 +26,8 @@ This app includes multi-tenancy support, allowing different agencies to manage t
 ### [Smart Budget (Next.js + FastAPI)](https://github.com/patosorio/expenses-tracker)
 
 **[Repository](https://github.com/patosorio/expenses-tracker)**
+
+#### Currently working on
 
 This project combines Next.js frontend with a FastAPI backend, offering a secure and scalable solution for managing expenses, budget forecast with ai assistant integrated. While leveraging Firebase for authentication, the application uses a custom backend with SQL database for data persistence and business logic.
 
