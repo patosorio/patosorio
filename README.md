@@ -1,10 +1,11 @@
 # Hi, I'm Patricia 
 
 I'm a Python developer specializing in business process automation. Currently learning cybersecurity, while I'm not a professional in the field yet, I'm actively building my skills.
+[www.patosorio.com](https://www.patosorio.com)
 
 ---
 
-## Featured Projects
+## Web Applications
 
 ### [Artists Bookings (Next.js + Django)](https://github.com/patosorio/Artist-bookings)
 
@@ -38,6 +39,29 @@ This project combines Next.js frontend with a FastAPI backend, offering a secure
 - **Database**: SQL database with Alembic migrations
 ---
 
+## Websites
+
+### Law Firm Website (Next.js + Firebase + Firestore)  
+[Repository](https://github.com/patosorio/law-firm-website) • [Website](https://abogado-gentile.web.app/)
+
+A custom-built website for a law firm with an integrated **admin panel** that allows site users to manage content dynamically.  
+
+- **Frontend**: Next.js  
+- **Backend/Hosting**: Firebase + Firestore  
+- **Features**: Admin panel for content management  
+
+---
+
+### Midnight Escales (Next.js + Firebase + Firestore)  
+[Repository](https://github.com/patosorio/midnight-escale) • [Website](https://midnight-escale.web.app/)
+
+A website for **luxury Morocco tours** with an integrated **admin panel** for the site owner to easily add itineraries and curated experiences.  
+
+- **Frontend**: Next.js  
+- **Backend/Hosting**: Firebase + Firestore  
+- **Features**: Admin panel for itinerary and experience management
+
+---
 ## Business Automations
 
 I build Python-based automations focused on real-world business tasks.  
