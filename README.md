@@ -17,9 +17,9 @@ This app includes multi-tenancy support, allowing different agencies to manage t
 
 - **Frontend**: Built with Next.js using Vercel’s `v0` AI-powered generator  
 - **Backend**: Django REST Framework  
-- **Hosting**: Frontend on Vercel, Backend on Google Cloud Run  
-- **Authentication**: Firebase Authentication  
-- **Storage**: Firebase Storage  
+- **Hosting**: Frontend on Firebase Hosting, Backend on Google Cloud Run  
+- **Authentication**: Firebase Authentication
+- **Storage**: Cloud Storage 
 - **Database**: PostgreSQL (Cloud SQL)  
 
 ---
@@ -34,8 +34,8 @@ This project combines Next.js frontend with a FastAPI backend, offering a secure
 
 - **Frontend**: Built with Next.js using Vercel’s `v0` AI-powered generator
 - **Backend:**: FastAPI with SQLAlchemy
-- **Hosting**: Vercel (Frontend) / Custom hosting (GCP)  
-- **Authentication**: Firebase Authentication  
+- **Hosting**: Firebase (Frontend) / Backend in Cloud Run (GCP)  
+- **Authentication**: Firebase Authentication 
 - **Database**: SQL database with Alembic migrations
 ---
 
