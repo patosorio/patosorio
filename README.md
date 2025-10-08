@@ -41,6 +41,15 @@ This project combines Next.js frontend with a FastAPI backend, offering a secure
 
 ## Websites
 
+### Pharma Genetics Website (Next.js + Firebase + Firestore)  
+[Repository](https://github.com/patosorio/Pharma-Genetics-Website) • [Website](http://fenopharm.eu)
+
+A custom-built website for a law firm with an integrated **admin panel** that allows site users to manage content dynamically.  
+
+- **Frontend**: Next.js  
+- **Backend/Hosting**: Firebase + Firestore  
+- **Features**: Admin panel for content management 
+
 ### Law Firm Website (Next.js + Firebase + Firestore)  
 [Repository](https://github.com/patosorio/law-firm-website) • [Website](https://abogado-gentile.web.app/)
 
