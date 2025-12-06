@@ -5,7 +5,53 @@ I'm a Python developer specializing in business process automation. Currently le
 
 ---
 
+## AI Projects
+
+### [Project Brief AI Assistant (FastAPI + Gemini API)](https://github.com/patosorio/scaling-doodle)
+
+A Python API that transforms project documents into business-friendly briefs and enables semantic search using Google's Gemini File Search API.
+
+- **Backend**: FastAPI  
+- **AI Model**: Google Gemini 2.5 Flash  
+- **Features**:  
+  - File upload and automatic project brief generation  
+  - Semantic search over project documents  
+  - RAG-style architecture with File Search Store  
+- **Architecture**: Modular separation of concerns (API layer, Gemini client, prompts)  
+- **Tech Stack**: FastAPI, Python 3.10+, Gemini API, Pydantic, Uvicorn  
+
+---
+
+## Data Visualization & BI Projects
+
+### [Pharma Genetics Business Plan Dashboard API (FastAPI + Dash Plotly)](https://github.com/patosorio/pharma-genetics-bplan)
+
+API and dashboard pipeline for **Pharma Genetics**, syncing financial data from Google Sheets into SQL for real-time business intelligence reporting.
+
+- **Backend**: FastAPI + SQLAlchemy + Alembic  
+- **Data Source**: Google Sheets API  
+- **Database**: SQLite (Local)  
+- **Visualization**: Dash & Plotly (financial and operations dashboards)  
+- **Features**:  
+  - Automated Google Sheets sync  
+  - Hierarchical expense categories  
+  - Financial summaries (income, expenses, net position)  
+  - Exception handling, Pydantic validation, logging  
+
+---
+
 ## Web Applications
+
+
+### [Pharma Genetics ERP (Django + Next.js)](https://github.com/patosorio/pharma-genetics-erp)
+
+ERP for a GACP-certified genetics cultivation business (Fenopharm.eu).
+
+- **Frontend**: Next.js (Admin UI) with Firebase Auth  
+- **Backend**: Django 5 + Django Admin (+ DRF), PostgreSQL (Cloud SQL)  
+- **Modules**: Core, Genetics, Cultivation, Inventory, Sales, Purchasing, HR, Accounting  
+- **Features**: Real-time CRUD operations, normalized schema with foreign keys, audit trails, soft deletes, and role-based access 
+
 
 ### [Artists Bookings (Next.js + Django)](https://github.com/patosorio/Artist-bookings)
 
@@ -22,7 +68,6 @@ This app includes multi-tenancy support, allowing different agencies to manage t
 - **Storage**: Cloud Storage 
 - **Database**: PostgreSQL (Cloud SQL)  
 
----
 
 ### [Smart Budget (Next.js + FastAPI)](https://github.com/patosorio/expenses-tracker)
 
@@ -37,6 +82,7 @@ This project combines Next.js frontend with a FastAPI backend, offering a secure
 - **Hosting**: Firebase (Frontend) / Backend in Cloud Run (GCP)  
 - **Authentication**: Firebase Authentication 
 - **Database**: SQL database with Alembic migrations
+
 ---
 
 ## Websites
