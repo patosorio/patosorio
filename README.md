@@ -7,6 +7,24 @@ I'm a Python developer specializing in business process automation. Currently le
 
 ## AI Projects
 
+### [MealPlanner — AI Meal Planner (FastAPI + Next.js + Claude)](https://github.com/patosorio/mealplan)
+
+A personalised AI meal planner for plant-based eaters. Set your diet, goals, and preferences — the app generates a 7-day meal plan, tracks your pantry, and produces a shopping list for what's missing. Save any AI-generated meal you love with one click; future plans get smarter every time you do.
+
+- **Backend**: FastAPI + SQLAlchemy (async) + PostgreSQL  
+- **Frontend**: Next.js 15  
+- **AI Models**: Claude Sonnet (meal plan generation) + Gemini (embeddings & recipe import)  
+- **Features**:  
+  - 7-day personalised meal plan generation  
+  - Pantry tracking + auto-generated shopping lists  
+  - Recipe bookmarking with semantic search (pgvector)  
+  - Calendar scheduling with Firestore sync  
+  - Taste profile that improves with every interaction  
+- **Auth**: Firebase Authentication (Google OAuth)  
+- **Infra**: Cloud Run, Cloud SQL, Firebase Hosting  
+
+---
+
 ### [Project Brief AI Assistant (FastAPI + Gemini API)](https://github.com/patosorio/scaling-doodle)
 
 A Python API that transforms project documents into business-friendly briefs and enables semantic search using Google's Gemini File Search API.
