@@ -11,17 +11,17 @@ I'm a Python developer specializing in business process automation. Currently le
 
 A personalised AI meal planner for plant-based eaters. Set your diet, goals, and preferences — the app generates a 7-day meal plan, tracks your pantry, and produces a shopping list for what's missing. Save any AI-generated meal you love with one click; future plans get smarter every time you do.
 
-- **Backend**: FastAPI + SQLAlchemy (async) + PostgreSQL  
-- **Frontend**: Next.js 15  
-- **AI Models**: Claude Sonnet (meal plan generation)  
+- **Backend**: FastAPI + SQLAlchemy 2.0 (async) + PostgreSQL (Supabase)
+- **Frontend**: Next.js 15 (App Router)
+- **AI Models**: Claude Sonnet 4.6 (agent + recipe generation) · Claude Haiku 3.5 (structured tasks)
 - **Features**:  
-  - 7-day personalised meal plan generation  
-  - Pantry tracking + auto-generated shopping lists  
-  - Recipe bookmarking with semantic search (pgvector)  
-  - Calendar scheduling with Firestore sync  
-  - Taste profile that improves with every interaction  
-- **Auth**: Firebase Authentication (Google OAuth)  
-- **Infra**: Cloud Run, Cloud SQL, Firebase Hosting  
+  - Conversational meal planning via an agentic tool-use loop
+  - Deterministic macro, exclusion, and protein variety validation
+  - Recipe generation, substitution, and semantic search (pgvector + Voyage AI)
+  - Async weekly plan generation with real-time notifications (Supabase Realtime)
+  - Pantry tracking + auto-generated, diff'd shopping lists
+- **Auth**: Supabase Auth (JWT RS256)  
+- **Infra**: GCP Cloud Run, Supabase
 
 ---
 
