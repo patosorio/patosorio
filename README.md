@@ -42,19 +42,21 @@ A Python API that transforms project documents into business-friendly briefs and
 
 ## Data Visualization & BI Projects
 
-### [Pharma Genetics Business Plan Dashboard API (FastAPI + Dash Plotly)](https://github.com/patosorio/pharma-genetics-bplan)
+### [Integralta Analytics v2 — Financial Analytics Platform (Next.js + FastAPI + Supabase)](https://github.com/patosorio/finance-dashboard)
 
-API and dashboard pipeline for **Pharma Genetics**, syncing financial data from Google Sheets into SQL for real-time business intelligence reporting.
+Financial analytics platform for an industrial laundry company, syncing ERP data from Holded into Postgres for real-time BI reporting and an embedded AI financial advisor.
 
-- **Backend**: FastAPI + SQLAlchemy + Alembic  
-- **Data Source**: Google Sheets API  
-- **Database**: SQLite (Local)  
-- **Visualization**: Dash & Plotly (financial and operations dashboards)  
+- **Backend**: FastAPI (async, Python 3.12) + SQLAlchemy 2.0 + Alembic  
+- **Data Source**: Holded ERP API (invoices, purchases, payroll, taxes, ledger)  
+- **Database**: Postgres (Supabase, with Auth + Row Level Security)  
+- **Frontend**: Next.js 15 (App Router) + TypeScript + Tailwind + shadcn/ui + TanStack Query  
+- **AI**: Anthropic Claude (native SDK, tool-use loop) — read-only financial advisor, never computes on its own  
 - **Features**:  
-  - Automated Google Sheets sync  
-  - Hierarchical expense categories  
-  - Financial summaries (income, expenses, net position)  
-  - Exception handling, Pydantic validation, logging  
+  - Scheduled Holded → Postgres sync engine  
+  - Deterministic finance engine (€/kg cost allocation, client profitability, 13-week cashflow forecast)  
+  - Editable business rules (cost pools, weights, margins) as config tables, not hardcoded constants  
+  - Pydantic validation, structured logging, 100% unit-tested engine logic
+```
 
 ---
 
