@@ -56,7 +56,6 @@ Financial analytics platform for an industrial laundry company, syncing ERP data
   - Deterministic finance engine (€/kg cost allocation, client profitability, 13-week cashflow forecast)  
   - Editable business rules (cost pools, weights, margins) as config tables, not hardcoded constants  
   - Pydantic validation, structured logging, 100% unit-tested engine logic
-```
 
 ---
 
