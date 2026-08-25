@@ -41,6 +41,23 @@ A personalised AI meal planner for plant-based eaters. Set your diet, goals, and
 
 ---
 
+### [TravelAgency AI — Junket (FastAPI + Next.js + Claude)](https://github.com/patosorio/verbose-giggle)
+
+Collaborative trip-planning platform for groups who can't agree on where to stay. One organizer builds a multi-leg trip skeleton, the app pulls real flight, hotel, and activity options, the group votes, and the organizer locks in choices against a running budget.
+
+- **Backend**: FastAPI + Pydantic v2 + SQLAlchemy 2.0 + asyncpg + PostgreSQL (Alembic migrations)
+- **Frontend**: Next.js 16 (App Router) + Tailwind CSS v4 + ShadCN/UI + TanStack Query
+- **AI/Research**: Claude API for activity research, citation-verified at the schema level — deterministic pricing APIs handle flights/hotels, LLM confined to research only, no agent frameworks
+- **Features**:  
+  - Multi-leg trip builder with party-size and budget tracking
+  - Live flight/hotel search via SerpApi across three pricing tiers
+  - Group reactions with organizer-gated locking and full audit trails
+  - Magic-link authentication (no passwords)
+  - Real-world tested against a 5-leg Thailand itinerary (6 adults, 1 child)
+- **Infra**: Docker, GCP Cloud Run, Cloud SQL, Vercel, Cloud Build
+
+---
+
 ### [Project Brief AI Assistant (FastAPI + Gemini API)](https://github.com/patosorio/scaling-doodle)
 
 A Python API that transforms project documents into business-friendly briefs and enables semantic search using Google's Gemini File Search API.
