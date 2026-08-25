@@ -1,7 +1,23 @@
 # Hi, I'm Patricia 
 
-I'm a Python developer specializing in business process automation. Currently learning cybersecurity, while I'm not a professional in the field yet, I'm actively building my skills.
+I'm a Python developer and backend Engineer specialising in business process automation. 
 [www.patosorio.com](https://patosorio-website.web.app/)
+
+---
+
+## Featured Project
+
+### Green Bridge — GMP SaaS ERP (FastAPI + Next.js + PostgreSQL + GCP)
+
+🔒 **Private repository** — this platform handles pharmaceutical-grade regulatory and cultivation data, so the codebase isn't public. **[Reach out for a demo](mailto:patosorio.88@gmail.com)**.
+
+Sole technical architect and developer of a multi-tenant SaaS ERP platform for GMP-regulated medical cannabis cultivation, processing, and export to Germany and the Netherlands, built toward EU GMP Annex 11 certification.
+
+- **Backend**: FastAPI (async) + SQLAlchemy 2.0 (async) + PostgreSQL + pgvector  
+- **Frontend**: Next.js 15 (App Router) + TanStack Query v5  
+- **Infra**: GCP (Cloud Run, Cloud SQL, Secret Manager)  
+- **Compliance**: GAMP 5, EU GMP Annex 11, 21 CFR Part 11 — full validation documentation suite (URS through IQ/OQ/PQ)  
+- **Scope**: Full data model, API design, and security architecture for a validated, multi-tenant pharma-grade platform  
 
 ---
 
@@ -37,6 +53,22 @@ A Python API that transforms project documents into business-friendly briefs and
   - RAG-style architecture with File Search Store  
 - **Architecture**: Modular separation of concerns (API layer, Gemini client, prompts)  
 - **Tech Stack**: FastAPI, Python 3.10+, Gemini API, Pydantic, Uvicorn  
+
+---
+
+### [Lead Enrichment & Scoring System (Python + OpenAI)](https://github.com/patosorio/super-duper-guacamole)
+
+An AI-powered lead qualification pipeline built for a GTM/sales use case — extracts structured insight from raw lead notes, scores lead quality, and routes leads to the right team automatically.
+
+- **Language**: Python  
+- **AI Model**: OpenAI API (structured outputs)  
+- **Features**:  
+  - LLM extraction of industry, company size, and buyer intent from unstructured notes  
+  - Points-based scoring engine (0–100) weighted by industry relevance, company size, and intent clarity  
+  - Automatic routing: 70+ score to sales, others to marketing nurture  
+  - Rule-based fallback (~70% accuracy) keeps the pipeline working without API access  
+  - Batch processing — ~100 leads in 20 seconds via thread pooling  
+- **Tech Stack**: Python, OpenAI API, Pydantic, ThreadPoolExecutor, Tenacity  
 
 ---
 
@@ -144,3 +176,5 @@ Other automation:
 - [Website](https://www.patosorio.com)
 - [LinkedIn](https://www.linkedin.com/in/patriciaosorio130194/)
 - Email: patosorio.88@gmail.com
+
+Currently learning cybersecurity, while I'm not a professional in the field yet, I'm actively building my skills.
