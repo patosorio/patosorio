@@ -1,4 +1,4 @@
-# Hi, I'm Patricia 
+# Hi!
 
 I'm a Python developer and backend Engineer specialising in business process automation. 
 [www.patosorio.com](https://patosorio-website.web.app/)
